@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tap-It Mappings</title>
+    <script src="./tailwind.js"></script>
+    <style>
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #e5e7eb;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #9ca3af;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6b7280;
+      }
+
+      body {
+        width: 480px;
+        min-height: 300px;
+        max-height: 550px;
+        overflow-y: auto;
+        font-family: "Inter", sans-serif;
+        background-color: #f9fafb;
+      }
+
+      .editable-label {
+        cursor: pointer;
+        border-bottom: 1px dashed #d1d5db;
+        min-width: 100px;
+        display: inline-block;
+        padding: 2px 0;
+      }
+      .editable-label:hover {
+        border-bottom-color: #6b7280;
+      }
+      .label-input {
+        border: 1px solid #d1d5db;
+        padding: 3px 6px;
+        border-radius: 4px;
+        width: 98%;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+      }
+
+      details > summary {
+        list-style: none;
+        cursor: pointer;
+        padding: 2px 0;
+      }
+      details > summary::-webkit-details-marker {
+        display: none;
+      }
+      details > summary::before {
+        content: "▶";
+        font-size: 0.7em;
+        margin-right: 5px;
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+      }
+      details[open] > summary::before {
+        transform: rotate(90deg);
+      }
+      .selector-content {
+        margin-top: 4px;
+        padding: 5px 8px;
+        background-color: #f3f4f6;
+        border-radius: 4px;
+        font-family: monospace;
+        font-size: 0.8rem;
+        color: #4b5563;
+        word-break: break-all;
+        border: 1px solid #e5e7eb;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="p-4">
+    <div class="container mx-auto">
+      <h1 class="text-xl font-semibold mb-4 text-gray-800 border-b pb-2">
+        Tap-It Mappings
+      </h1>
+
+      <div id="mappings-list" class="space-y-4 mb-4">
+        <p class="text-gray-500 text-center py-4">Loading mappings...</p>
+      </div>
+
+      <div class="border-t pt-4 mt-4">
+        <h2 class="text-lg font-medium mb-3 text-gray-700">Import / Export</h2>
+        <p class="text-xs text-gray-500 mb-3">
+          Select hostnames above to enable export.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-3">
+          <button
+            id="export-button"
+            class="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-md transition duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed flex-grow sm:flex-grow-0 shadow-sm"
+          >
+            Export Selected
+          </button>
+
+          <label
+            class="bg-green-400 hover:bg-green-500 text-white font-bold py-2 px-4 rounded-md transition duration-150 ease-in-out cursor-pointer flex-grow sm:flex-grow-0 text-center shadow-sm"
+          >
+            Import Mappings
+            <input type="file" id="import-file" accept=".json" class="hidden" />
+          </label>
+        </div>
+        <p id="import-status" class="text-sm mt-2 text-gray-600 h-4"></p>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

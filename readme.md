@@ -18,6 +18,11 @@ That's exactly what happened while playing chess on chess.com. I wanted to quick
     * Add descriptive labels to your mappings (e.g., "Focus Mode", "Next Video").
     * Delete individual mappings or all mappings for a specific site.
     * **Import/Export:** Export your mappings for selected websites to a JSON file to back them up or share them with others. Import mappings from a JSON file.
+ 
+![final-image (4)](https://github.com/user-attachments/assets/e0f95e4d-c664-4e74-88ec-86317d466641)
+![final-image (3)](https://github.com/user-attachments/assets/d9bc0c5b-7fb8-409f-a9d6-92c24a6317c9)
+![final-image (5)](https://github.com/user-attachments/assets/3ba6450f-a7ff-4fa7-8e98-30d4a4fe95ab)
+
 
 
 ## How to Use

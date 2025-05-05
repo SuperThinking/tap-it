@@ -2,6 +2,11 @@
 
 **Tap-It** is a simple Chrome extension that lets you map keyboard keys to click specific elements on websites. Create custom shortcuts for your favorite sites!
 
+# Installation
+The extension is available for [Google Chrome](https://chromewebstore.google.com/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe)
+
+[![](https://img.shields.io/chrome-web-store/v/pcmpcfapbekmbjjkdalcgopdkipoggdi.svg?logo=google-chrome&style=flat)](https://chrome.google.com/webstore/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe) [![](https://img.shields.io/chrome-web-store/rating/nofolooakncdaeapllonekcemhgcnobe.svg?logo=google-chrome&style=flat)](https://chrome.google.com/webstore/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe) [![](https://img.shields.io/chrome-web-store/users/nofolooakncdaeapllonekcemhgcnobe.svg?logo=google-chrome&style=flat)](https://chrome.google.com/webstore/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe)
+
 ## Motivation
 
 Have you ever wished you could trigger an action on a website with a single key press, but there was no built-in shortcut?

@@ -54,4 +54,4 @@ That's exactly what happened while playing chess on chess.com. I wanted to quick
 
 ---
 
-Feel free to suggest improvements or report issues!
+Feel free to suggest improvements or report issues and share your configs on [r/TapIt](https://www.reddit.com/r/TapIt/) !

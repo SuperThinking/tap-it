@@ -5,7 +5,7 @@
 # Installation
 The extension is available for [Google Chrome](https://chromewebstore.google.com/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe)
 
-[![](https://img.shields.io/chrome-web-store/v/pcmpcfapbekmbjjkdalcgopdkipoggdi.svg?logo=google-chrome&style=flat)](https://chrome.google.com/webstore/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe) [![](https://img.shields.io/chrome-web-store/rating/nofolooakncdaeapllonekcemhgcnobe.svg?logo=google-chrome&style=flat)](https://chrome.google.com/webstore/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe) [![](https://img.shields.io/chrome-web-store/users/nofolooakncdaeapllonekcemhgcnobe.svg?logo=google-chrome&style=flat)](https://chrome.google.com/webstore/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe)
+[![](https://img.shields.io/chrome-web-store/v/nofolooakncdaeapllonekcemhgcnobe.svg?logo=google-chrome&style=flat)](https://chrome.google.com/webstore/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe) [![](https://img.shields.io/chrome-web-store/rating/nofolooakncdaeapllonekcemhgcnobe.svg?logo=google-chrome&style=flat)](https://chrome.google.com/webstore/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe) [![](https://img.shields.io/chrome-web-store/users/nofolooakncdaeapllonekcemhgcnobe.svg?logo=google-chrome&style=flat)](https://chrome.google.com/webstore/detail/tap-it/nofolooakncdaeapllonekcemhgcnobe)
 
 ## Motivation
 
